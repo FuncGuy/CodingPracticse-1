@@ -24,10 +24,6 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        Map<String, String> map = new HashMap<>();
-        map.put("S","abc");
-        map.put("S", "cba");
-        System.out.println(map);
         int[] array = {3, 5, -4, 8, 11, 1, -1, 6};
         int[] a = twoSum(array, 10);
         System.out.println(Arrays.toString(a));
